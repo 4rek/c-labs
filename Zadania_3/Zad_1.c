@@ -20,7 +20,7 @@ int main()
 
   int ** triangle = malloc(input * sizeof(int *));
 
-  for (int i = 0; i <= input; i++) {
+  for (int i = 0; i < input; i++) {
     triangle[i] = malloc((i + 1) * sizeof(int));
   }
 
